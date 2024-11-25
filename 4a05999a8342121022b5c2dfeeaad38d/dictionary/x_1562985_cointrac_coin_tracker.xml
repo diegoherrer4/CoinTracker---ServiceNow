@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0731691a83c2121022b5c2dfeeaad3fa" label="coin_tracker" max_length="40" name="x_1562985_cointrac_coin_tracker" text_index="true" type="collection">
+        <element label="Watchlist Flag" max_length="40" name="watchlist_flag" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Coin Name" max_length="40" name="coin_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Coin Symbol" max_length="40" name="coin_symbol" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Updated" max_length="40" name="last_updated" type="glide_date_time"/>
+        <element label="24h Price Change (%)" max_length="15" name="u_24h_price_change" type="decimal"/>
+        <element label="Volume" max_length="15" name="volume" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Coin Description" max_length="40" name="coin_description" type="string"/>
+        <element label="Supply" max_length="15" name="supply" type="decimal"/>
+        <element label="Current Price" max_length="15" name="current_price" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Coin ID" max_length="40" name="coin_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Alert Criteria" max_length="40" name="alert_criteria" type="string"/>
+        <element label="Market Capitalization" max_length="15" name="market_capitalization" type="decimal"/>
+    </element>
+</database>

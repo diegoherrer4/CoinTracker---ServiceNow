@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="CoinTracker">9885e59ee7c2121091b6b94036616982</dashboard>
+        <experience display_value="CoinTracker">1085e59eb7c2121005abed2327c4b396</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-25 17:54:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dc85e59ef2c21210d97923bba4135380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="CoinTracker" source="x_1562985_cointrac">4a05999a8342121022b5c2dfeeaad38d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoinTracker">4a05999a8342121022b5c2dfeeaad38d</sys_scope>
+        <sys_update_name>par_dashboard_visibility_dc85e59ef2c21210d97923bba4135380</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-25 17:54:13</sys_updated_on>
+    </par_dashboard_visibility>
+</record_update>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="0285699e83c2121022b5c2dfeeaad3a2" sys_domain="global" table="x_1562985_cointrac_coin_tracker" version="3" view="workspace-cointracker-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-25 17:54:20</sys_created_on>
+            <sys_id>0e85699e83c2121022b5c2dfeeaad3a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1562985_cointrac_coin_tracker" sys_domain="global" view="9885e59eb1c21210840260b7ec8e187f">0285699e83c2121022b5c2dfeeaad3a2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-25 17:54:20</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-25 17:54:20</sys_created_on>
+            <sys_id>0285699e83c2121022b5c2dfeeaad3a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1562985_cointrac_coin_tracker" sys_domain="global" view="9885e59eb1c21210840260b7ec8e187f">0285699e83c2121022b5c2dfeeaad3a2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-25 17:54:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>watchlist_flag</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-25 17:54:20</sys_created_on>
+            <sys_id>0e85699e83c2121022b5c2dfeeaad3a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1562985_cointrac_coin_tracker" sys_domain="global" view="9885e59eb1c21210840260b7ec8e187f">0285699e83c2121022b5c2dfeeaad3a2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-25 17:54:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>coin_name</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-25 17:54:20</sys_created_on>
+            <sys_id>0685699e83c2121022b5c2dfeeaad3a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1562985_cointrac_coin_tracker" sys_domain="global" view="9885e59eb1c21210840260b7ec8e187f">0285699e83c2121022b5c2dfeeaad3a2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-25 17:54:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>coin_symbol</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-25 17:54:20</sys_created_on>
+            <sys_id>0285a99e83c2121022b5c2dfeeaad326</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1562985_cointrac_coin_tracker" sys_domain="global" view="9885e59eb1c21210840260b7ec8e187f">0285699e83c2121022b5c2dfeeaad3a2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-25 17:54:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_updated</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-25 17:54:20</sys_created_on>
+            <sys_id>0a85699e83c2121022b5c2dfeeaad3a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1562985_cointrac_coin_tracker" sys_domain="global" view="9885e59eb1c21210840260b7ec8e187f">0285699e83c2121022b5c2dfeeaad3a2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-25 17:54:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_24h_price_change</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-25 17:54:20</sys_created_on>
+            <sys_id>0e85699e83c2121022b5c2dfeeaad3a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1562985_cointrac_coin_tracker" sys_domain="global" view="9885e59eb1c21210840260b7ec8e187f">0285699e83c2121022b5c2dfeeaad3a2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-25 17:54:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>volume</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-25 17:54:20</sys_created_on>
+            <sys_id>0a85a99e83c2121022b5c2dfeeaad324</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1562985_cointrac_coin_tracker" sys_domain="global" view="9885e59eb1c21210840260b7ec8e187f">0285699e83c2121022b5c2dfeeaad3a2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-25 17:54:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-25 17:54:20</sys_created_on>
+            <sys_id>8a85699e83c2121022b5c2dfeeaad3a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1562985_cointrac_coin_tracker" sys_domain="global" view="9885e59eb1c21210840260b7ec8e187f">0285699e83c2121022b5c2dfeeaad3a2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-25 17:54:20</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>coin_description</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-25 17:54:20</sys_created_on>
+            <sys_id>8685699e83c2121022b5c2dfeeaad3a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1562985_cointrac_coin_tracker" sys_domain="global" view="9885e59eb1c21210840260b7ec8e187f">0285699e83c2121022b5c2dfeeaad3a2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-25 17:54:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supply</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-25 17:54:20</sys_created_on>
+            <sys_id>8e85699e83c2121022b5c2dfeeaad3a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1562985_cointrac_coin_tracker" sys_domain="global" view="9885e59eb1c21210840260b7ec8e187f">0285699e83c2121022b5c2dfeeaad3a2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-25 17:54:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>current_price</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-25 17:54:20</sys_created_on>
+            <sys_id>8a85a99e83c2121022b5c2dfeeaad325</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1562985_cointrac_coin_tracker" sys_domain="global" view="9885e59eb1c21210840260b7ec8e187f">0285699e83c2121022b5c2dfeeaad3a2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-25 17:54:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>coin_id</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-25 17:54:20</sys_created_on>
+            <sys_id>8285699e83c2121022b5c2dfeeaad3a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1562985_cointrac_coin_tracker" sys_domain="global" view="9885e59eb1c21210840260b7ec8e187f">0285699e83c2121022b5c2dfeeaad3a2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-25 17:54:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>alert_criteria</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-25 17:54:20</sys_created_on>
+            <sys_id>0685a99e83c2121022b5c2dfeeaad325</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1562985_cointrac_coin_tracker" sys_domain="global" view="9885e59eb1c21210840260b7ec8e187f">0285699e83c2121022b5c2dfeeaad3a2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-25 17:54:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>market_capitalization</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-25 17:54:20</sys_created_on>
+            <sys_id>8685699e83c2121022b5c2dfeeaad3a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1562985_cointrac_coin_tracker" sys_domain="global" view="9885e59eb1c21210840260b7ec8e187f">0285699e83c2121022b5c2dfeeaad3a2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-25 17:54:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-25 17:54:20</sys_created_on>
+            <sys_id>8e85a99e83c2121022b5c2dfeeaad324</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1562985_cointrac_coin_tracker" sys_domain="global" view="9885e59eb1c21210840260b7ec8e187f">0285699e83c2121022b5c2dfeeaad3a2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-25 17:54:20</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1562985_cointrac_coin_tracker</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-25 17:54:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0285699e83c2121022b5c2dfeeaad3a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1562985_cointrac_coin_tracker</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CoinTracker" source="x_1562985_cointrac">4a05999a8342121022b5c2dfeeaad38d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CoinTracker">4a05999a8342121022b5c2dfeeaad38d</sys_scope>
+            <sys_update_name>sys_ui_section_0285699e83c2121022b5c2dfeeaad3a2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-25 17:54:20</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace CoinTracker 0" name="workspace-cointracker-0">9885e59eb1c21210840260b7ec8e187f</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
