@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5e97ce1a8386121022b5c2dfeeaad312" label="Alerts" max_length="40" name="x_1562985_cointrac_alerts" type="collection">
+        <element label="Threshold Percentage" max_length="20" name="threshold_percentage" type="decimal"/>
+        <element label="User" max_length="40" name="user" reference="sys_user" type="string"/>
+        <element label="Coin" max_length="40" name="coin" reference="x_1562985_cointrac_coin_tracker" type="string"/>
+        <element choice="1" label="Threshold Type" max_length="40" name="threshold_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Decrease"/>
+                <element inactive_on_update="false" label="Increase"/>
+            </choice>
+        </element>
+        <element label="Email" max_length="40" name="email" reference="sys_email" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1562985_cointrac.ProcessCoinCapData</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ProcessCoinCapData</name>
+        <script><![CDATA[var ProcessCoinCapData = Class.create();
+ProcessCoinCapData.prototype = {
+    initialize: function () {},
+
+    processResponse: function (responseBody) {
+        var jsonResponse = JSON.parse(responseBody);
+
+        if (jsonResponse.data) {
+            jsonResponse.data.forEach(function (coin) {
+                var gr = new GlideRecord('x_1562985_cointrac_coin_tracker'); 
+                gr.addQuery('symbol', coin.symbol); // Look for existing coins
+                gr.query();
+
+                if (gr.next()) {
+                    // Update existing record
+                    gr.setValue('current_price', coin.priceUsd);
+                    gr.setValue('market_capitalization', coin.marketCapUsd);
+                    gr.setValue('supply', coin.supply);
+                    gr.update();
+                } else {
+                    // Insert new record
+                    gr.initialize();
+                    gr.setValue('coin_name', coin.name);
+                    gr.setValue('coin_symbol', coin.symbol);
+                    gr.setValue('current_price', coin.priceUsd);
+                    gr.setValue('market_capitalization', coin.marketCapUsd);
+                    gr.setValue('supply', coin.supply);
+                    gr.insert();
+                }
+            });
+        }
+    },
+
+    type: 'ProcessCoinCapData'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-26 20:18:57</sys_created_on>
+        <sys_id>981057e683ce521022b5c2dfeeaad3a9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ProcessCoinCapData</sys_name>
+        <sys_package display_value="CoinTracker" source="x_1562985_cointrac">4a05999a8342121022b5c2dfeeaad38d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CoinTracker">4a05999a8342121022b5c2dfeeaad38d</sys_scope>
+        <sys_update_name>sys_script_include_981057e683ce521022b5c2dfeeaad3a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-26 20:34:36</sys_updated_on>
+    </sys_script_include>
+</record_update>
