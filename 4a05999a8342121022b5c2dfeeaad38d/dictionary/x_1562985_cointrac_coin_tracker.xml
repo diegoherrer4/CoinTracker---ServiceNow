@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="0731691a83c2121022b5c2dfeeaad3fa" label="coin_tracker" max_length="40" name="x_1562985_cointrac_coin_tracker" text_index="true" type="collection">
-        <element label="Watchlist Flag" max_length="40" name="watchlist_flag" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Coin Name" max_length="40" name="coin_name" type="string"/>
+    <element db_object_id="0731691a83c2121022b5c2dfeeaad3fa" label="Coins" max_length="40" name="x_1562985_cointrac_coin_tracker" text_index="true" type="collection">
+        <element label="Add to Watchlist" max_length="40" name="watchlist_flag" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Coin Name" max_length="40" name="coin_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Coin Symbol" max_length="40" name="coin_symbol" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Last Updated" max_length="40" name="last_updated" type="glide_date_time"/>
         <element label="24h Price Change (%)" max_length="15" name="u_24h_price_change" type="decimal"/>

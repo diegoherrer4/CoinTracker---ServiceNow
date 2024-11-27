@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="89e82bf28346d21022b5c2dfeeaad31d" label="Watchlist" max_length="40" name="x_1562985_cointrac_watchlist" type="collection">
+        <element label="Coin" max_length="40" name="coin" reference="x_1562985_cointrac_coin_tracker" type="reference"/>
+        <element label="User" max_length="40" name="user" reference="sys_user" type="reference"/>
+    </element>
+</database>

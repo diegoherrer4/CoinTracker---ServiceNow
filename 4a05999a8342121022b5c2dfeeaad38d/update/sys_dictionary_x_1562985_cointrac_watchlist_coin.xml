@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="watchlist_flag" table="x_1562985_cointrac_coin_tracker">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="coin" table="x_1562985_cointrac_watchlist">
         <active>true</active>
         <array>false</array>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Add to Watchlist</column_label>
+        <column_label>Coin</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,21 +26,21 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>watchlist_flag</element>
+        <element>coin</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">boolean</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_1562985_cointrac_coin_tracker</name>
+        <name>x_1562985_cointrac_watchlist</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_1562985_cointrac_coin_tracker">x_1562985_cointrac_coin_tracker</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -46,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-11-25 17:35:35</sys_created_on>
-        <sys_name>Add to Watchlist</sys_name>
+        <sys_created_on>2024-11-27 16:46:25</sys_created_on>
+        <sys_name>Coin</sys_name>
         <sys_package display_value="CoinTracker" source="x_1562985_cointrac">4a05999a8342121022b5c2dfeeaad38d</sys_package>
         <sys_policy/>
         <sys_scope display_value="CoinTracker">4a05999a8342121022b5c2dfeeaad38d</sys_scope>
-        <sys_update_name>sys_dictionary_x_1562985_cointrac_coin_tracker_watchlist_flag</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1562985_cointrac_watchlist_coin</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-27 17:25:44</sys_updated_on>
+        <sys_updated_on>2024-11-27 21:44:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
